@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Good day!</h1>
+    <p>You are viewing this web page from Android!</p>
+    <script>
+        // the WebAppInterface is accessible through window.Android
+        document.body.append("Your device is using Android " + Android.getAndroidVersion());
+    </script>
+</body>
+</html>
